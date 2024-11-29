@@ -1,0 +1,21 @@
+{
+    "cuisines":[
+        "Indian",
+        "Italian",
+        "Mexican",
+        "Chinese",
+        "West"
+    ],
+    "subcategories":[
+        "Sandwich",
+        "Pasta",
+        "Burger",
+        "Pizza",
+        "Noodles"
+    ],
+    "categories":[
+        "veg",
+        "non-veg",
+        "gluten-free"
+    ]
+}

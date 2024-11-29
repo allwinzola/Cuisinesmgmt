@@ -1,0 +1,278 @@
+.catcontainer {
+  margin-top: 5vh !important;
+  max-width: 750px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  background-color: #5fc0a3;
+  border-radius: 12px;
+  height: 150vh !important;
+}
+
+.catcard{
+    padding: 20px;
+}
+h1 {
+  font-size: 3rem;
+  text-align: center;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 30px;
+  letter-spacing: 2px;
+}
+
+h2 {
+  font-size: 2rem;
+  color: #555;
+  font-weight: 600;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+.row {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+  margin-bottom: 40px;
+}
+
+.card {
+    width: auto !important;
+    height: auto !important;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background-color: #fff;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.2);
+}
+
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+  width: 100%;
+  transition: transform 0.3s ease;
+}
+
+.card-img-top:hover {
+  transform: scale(1.05);
+}
+
+.card-body {
+  padding: 20px;
+  text-align: center;
+  background-color: #fff;
+}
+
+.card-title {
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.card-text {
+  font-size: 1.1rem;
+  color: #777;
+  margin-top: 5px;
+  text-transform: capitalize;
+}
+
+.txts{
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #333;
+  display: block;
+  margin-bottom: 3px;
+  margin-left: 5vh;
+}
+.ipfield{
+  width: 90% !important;
+  padding: 5px;
+  /* margin-bottom: 15px; */
+  border: 1px solid #6d6d6d !important;
+  border-radius: 4px;
+  margin-left: 5vh;
+  font-size: 1rem;
+  transition: border-color 0.1s ease;
+}
+label {
+  display: block;
+  font-size: 1rem;
+  color: #555;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+
+input[type="text"],
+input[type="file"] {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  background-color: #fff;
+  transition: border 0.3s ease, box-shadow 0.3s ease;
+}
+
+input[type="text"]:focus,
+input[type="file"]:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 8px rgba(0, 123, 255, 0.3);
+  outline: none;
+}
+.cattocui{
+  background-color: #37d417 !important;
+  width: 200px !important;
+  margin-top: 25px;
+  height: 45px !important;
+  border-radius: 8px;
+  margin-left: 1vh;
+}
+.cattosub{
+  background-color: #d81b99 !important;
+  width: 200px !important;
+  margin-right: 10vh !important;
+  height: 45px;
+  border-radius: 8px;
+  margin-left: 40vh;
+}
+.btn-primary{
+  border-radius: 5px;
+  background-color: #007bff !important;
+  width: 40vh;
+  height: 8vh;
+  margin-left: 35vh;
+}
+button {
+  padding: 12px 25px;
+  background-color: #4caf50;
+  color: white;
+  font-size: 1.1rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  width: 100%;
+  margin-top: 15px;
+}
+
+button:hover {
+  background-color: #45a049;
+  transform: translateY(-2px);
+}
+
+button:active {
+  background-color: #3e8e41;
+}
+
+.navigation-buttons {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 40px;
+}
+
+.navigation-buttons button {
+  padding: 12px 25px;
+  background-color: #2196f3;
+  color: white;
+  font-size: 1.1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  width: 200px;
+  margin-top: 10px;
+}
+
+.navigation-buttons button:hover {
+  background-color: #1976d2;
+  transform: translateY(-2px);
+}
+
+.navigation-buttons button:active {
+  background-color: #1565c0;
+}
+
+@media (max-width: 768px) {
+  .catcontainer {
+    width: 370px;
+    margin-top: 40px !important;
+    /* margin: 20px auto; */
+    /* padding: 20px 10px; */
+    height: 810px !important; /* Adjust height for smaller screens */
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  .row {
+    grid-template-columns: 1fr; /* Single column layout for small screens */
+    gap: 10px;
+  }
+
+  .card {
+    width: 100%; /* Full width cards for mobile */
+    margin-bottom: 20px;
+  }
+
+  .card-img-top {
+    height: auto; /* Allow images to scale naturally */
+  }
+
+  .card-body {
+    padding: 10px;
+  }
+
+  .card-title {
+    font-size: 1.2rem;
+  }
+
+  .card-text {
+    font-size: 1rem;
+  }
+
+  .txts {
+    margin-left: 2vh;
+    font-size: 1rem;
+  }
+
+  .ipfield {
+    width: 100% !important;
+    margin-left: 0;
+    font-size: 0.9rem;
+  }
+
+  .cattocui, .cattosub {
+    width: 100%;
+    margin-left: 60px !important;
+    margin: 10px auto;
+    height: 40px !important;
+    text-align: center;
+  }
+
+  .btn-primary {
+    width: 80%;
+    height: 8vh;
+    margin: 10px auto;
+  }
+
+  .navigation-buttons {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .navigation-buttons button {
+    width: 100%;
+  }
+}
+
+    

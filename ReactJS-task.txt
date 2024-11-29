@@ -1,0 +1,95 @@
+Task: Build a ReactJS Frontend for Managing Cuisines, Categories, and Subcategories:
+
+Overview:
+
+You are tasked to create a ReactJS application that interacts with a Django REST API. The application should allow users to manage Cuisines, Categories, and Subcategories through the provided endpoints.
+
+
+Requirements:
+
+1. Cuisines:
+
+Display a list of cuisines in a table or grid.
+Provide a form to create a new cuisine by:
+  * Entering a title.
+  * Uploading an image.
+
+2. Categories:
+
+Display a list of categories along with their associated cuisines and subcategories.
+Provide a form to create a new category by:
+  * Entering a title.
+  * Uploading an image.
+  * Selecting multiple cuisines from a dropdown or multi-select.
+  * Selecting multiple subcategories from a dropdown or multi-select.
+
+3. Subcategories:
+
+Display a list of subcategories.
+Provide a form to create a new subcategory by:
+  * Entering a title.
+  * Selecting multiple categories from a dropdown or multi-select.
+
+
+Key Functionalities:
+
+1. List Views:
+
+Create separate pages to display lists for Cuisines, Categories, and Subcategories.
+Use the provided API endpoints to fetch and display data in a table or card layout.
+
+2. Forms:
+
+Create reusable forms for adding new Cuisines, Categories, and Subcategories.
+Include:
+  * TextInput fields for titles.
+  * File input for uploading images.
+  * Multi-select dropdowns or checkboxes for associating related entities.
+
+3. API Integration:
+
+Use fetch or axios to interact with the API endpoints.
+Handle success and error responses gracefully and provide feedback to the user.
+
+4. Validation:
+
+Ensure required fields are validated before submission (e.g., titles, images, and valid selections).
+
+
+Evaluation Criteria:
+
+1. UI/UX:
+
+The interface should be clean and intuitive.
+Forms and lists should be responsive.
+
+
+2. API Integration:
+
+Successfully fetch and display data from the API.
+Handle form submissions correctly with valid data sent to the backend.
+
+
+3. Error Handling:
+
+Show meaningful error messages for validation errors or API failures.
+
+
+4. Code Quality:
+
+The code should be modular and well-structured.
+Reuse components where applicable.
+
+
+5. Documentation:
+
+Include a README with:
+  * Instructions to set up and run the app.
+  * Example API usage.
+
+
+Bonus Tasks:
+
+Add a search or filter feature for the lists.
+Use a state management library (e.g., Redux, Zustand) to manage global state.
+Implement form validations with a library like Formik or React Hook Form.

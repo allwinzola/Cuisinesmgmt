@@ -1,0 +1,241 @@
+.mt-4{
+    font-size: 1.3rem;
+  font-weight: bold;
+  color: #333;
+  display: block;
+  margin-bottom: 3px;
+  margin-left: 5vh;
+}
+.subtitletxt{
+    font-size: 1.3rem;
+  font-weight: bold;
+  color: #333;
+  display: block;
+  margin-bottom: 3px;
+  margin-left: 5vh;
+}
+.subipfield{
+    width: 90% !important;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #6d6d6d !important;
+  border-radius: 4px;
+  margin-left: 5vh;
+  font-size: 1rem;
+  transition: border-color 0.1s ease;
+}
+.subcontainer {
+    background-color: #c48ac4;
+    padding: 30px;
+    margin-top: 5vh !important;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    max-width: 700px;
+    margin: 0 auto;
+    height: 85vh;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #333;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: #444;
+    margin-top: 30px;
+}
+
+.subcard {
+    background-color: #ffffff;
+    border: 1px solid #e3e3e3;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.subcard:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+.subcard-body {
+    padding: 20px;
+}
+
+.subcard-title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: #333;
+}
+
+.subcard-text {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    color: #666;
+}
+
+label {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #444;
+    margin-bottom: 8px;
+    display: block;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    background-color: #f9f9f9;
+    transition: border-color 0.3s ease;
+}
+
+input:focus {
+    outline: none;
+    border-color: #007bff;
+    background-color: #fff;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    padding: 12px 20px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+    transform: translateY(-3px);
+}
+
+button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+.subtocat{
+    background-color: #37d417 !important;
+  width: 200px !important;
+  margin-left: 50vh;
+  height: 45px !important;
+  border-radius: 8px;
+  margin-left: 55vh;
+}
+.subtocui{
+    background-color: #d81b99 !important;
+  width: 200px !important;
+  margin-right: 10vh !important;
+  height: 45px;
+  border-radius: 8px;
+  margin-left: 50vh;
+}
+
+.navigation-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.navigation-buttons .btn {
+    width: 48%;
+    padding: 12px 20px;
+    font-size: 1rem;
+    border-radius: 6px;
+    transition: background-color 0.3s ease;
+}
+
+.navigation-buttons .btn-secondary {
+    background-color: #6c757d;
+    color: white;
+}
+
+.navigation-buttons .btn-secondary:hover {
+    background-color: #5a6268;
+}
+@media (max-width: 768px) {
+    .subcontainer {
+        width: 350px;
+        border-radius: 8px;
+      /* padding: 15px; */
+      margin-top: 50px !important;
+      height: auto !important; /* Allow container to adjust height */
+    }
+  
+    h1 {
+      font-size: 2rem;
+      margin-bottom: 20px;
+    }
+  
+    h2 {
+      font-size: 1.4rem;
+      margin-top: 20px;
+      margin-bottom: 10px;
+    }
+  
+    .mt-4, 
+    .subtitletxt {
+      font-size: 1rem;
+      margin-left: 10px;
+    }
+  
+    .subipfield {
+      width: 90% !important;
+      margin-left: 10px;
+      font-size: 0.9rem;
+    }
+  
+    .subcard {
+        width: 330px !important;
+        left: -19px;
+      margin-bottom: 15px;
+    }
+  
+    .subcard-title {
+      font-size: 1.2rem;
+    }
+  
+    .subcard-text {
+      font-size: 0.9rem;
+    }
+  
+    .subtocat, 
+    .subtocui {
+      width: 100%;
+      margin: 10px auto;
+      margin-left: 100px;
+      height: 40px !important;
+    }
+  
+    button {
+      width: 80% !important;
+      padding: 10px;
+      font-size: 0.9rem;
+    }
+  
+    .navigation-buttons {
+      flex-direction: column;
+      gap: 10px;
+    }
+  
+    .navigation-buttons .btn {
+      width: 100%;
+      padding: 10px;
+    }
+  }
+  
